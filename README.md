@@ -1,4 +1,7 @@
+
 # Cadastral data for India
+
+# For general help about data go to [Help](https://github.com/ramSeraph/indian_cadastrals/discussions/8)
 
 Data available in the repository:
 * [Andhra Pradesh Cadastrals](https://github.com/ramSeraph/indian_cadastrals/releases/tag/andhra-pradesh)
