@@ -11,10 +11,10 @@ cat Canacona_angadvipa.geojsonl >> Canacona.geojsonl
 rm Canacona_angadvipa.geojsonl
 
 # dedup to deal with bugs in wmsdump?
-cat layers.txt | xargs -I {} uv run dedup.py {}
+cat layers.txt | xargs -I {} uv run dedup.py {}.geojsonl
 
 # convert from EPSG:3857 to EPSG:4326
-cat layers.txt | xargs -I {} uv run ./convert.sh {}
+cat layers.txt | xargs -I {} uv run ./convert.sh {}.geojsonl
 
 # join into single file
 uv run join.py 

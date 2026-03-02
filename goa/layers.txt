@@ -13,6 +13,4 @@ Salcete
 Sanguem
 Vasco
 Margao
-building_survey
-floorwise
-road
+Panaji
